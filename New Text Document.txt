@@ -2,3 +2,5 @@ font-family: 'Noto Serif', serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
 pro1-fe.surge.sh
+
+thriftplan.surge.sh

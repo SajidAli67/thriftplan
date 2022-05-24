@@ -467,3 +467,30 @@ footer .custom-input-group {
     padding: 10px 80px !important;
     box-shadow: 0px 15px 10px rgba(0,0,0,0.5);
   }
+  /* laptop */
+  .laptop-employee{
+      background: url('../imges/home/section_bg.png');
+      background-position: right top;
+      background-repeat: space;
+      margin-top: 10rem;
+      color:var(--color);
+      text-align: right;
+      font-weight: bold;
+  }
+  .laptop-employee p{
+    color:var(--color2)
+ }
+  .img-padding{
+      padding-top: 5rem;
+  }
+  .laptop-border-dot{
+    width: 100%;
+    display: flex;
+    margin: 30px 70px;
+  }
+  .laptop-border-dot .dot{
+      border-radius: 0px;
+  }
+  .margin-nig-50{
+    margin-left: -50px;
+  }

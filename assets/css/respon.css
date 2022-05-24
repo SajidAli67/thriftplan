@@ -35,7 +35,7 @@
     height: 300px;
 }
 .mobile-employee h2 {
-    padding-top: 0rem;
+    padding-top: 2rem;
     font-size: 20px;
 }
 .pt-12{
@@ -103,11 +103,64 @@
     
 }
 @media (max-width: 576px) {
+    footer {
+        margin-top: 50px;
+    }
     .monthly-con {
         width: 100%;
         height: 400px;
     }
     .monthly-text{
         width: 100%;
+    }
+    .img-mobile-employee {
+        margin-top: -2rem;
+        margin-left: 3rem;
+    }
+    .bg-section-employee {
+        position: absolute;
+        right: 0px;
+      margin-top: 0px; 
+    }
+    .mobile-employee {
+        margin-top: 100px;
+    }
+    .border-dot {
+        margin-left: 50px;
+    }
+    .mobile-employee p {
+     
+        font-size: 12px;
+    }
+    .mobile-employee h2 {
+        font-size: 15px;
+    }
+    .employee-message h2{
+        font-size: 18px;
+    }
+    .faq .card-header a {
+        
+        padding-left: 2rem; 
+        font-size: 12px;
+    }
+    .employee-end h1{
+        font-size: 18px;
+    }
+    .employee-message {
+        
+        margin: 2rem auto;
+      
+    }
+    .margin-r-m{
+            margin-left: 0px;
+    }
+    .margin-nig {
+        margin-left: 0px; 
+    }
+    .margin-t-r{
+        margin-top: 15rem;
+    }
+    .heading {
+        font-size: 24px;
     }
 }
