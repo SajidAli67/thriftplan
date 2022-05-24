@@ -1,0 +1,37 @@
+.user-banner{
+    background: url('../imges/our_plan/user-plan-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 80px 0px 50px 0px;
+}
+.user-banner h1{
+    font-size: 56px;
+    font-weight: bold;
+}
+/* Multiset Form */
+  #progressbar{
+    width:100%;
+    height: 40px;
+    box-sizing: 0px 10px 10px rgba(0,0,0,.5);
+  }
+  #progressbar li {
+    width: 24%;
+    height: 8px;
+    list-style-type: none;
+    float: left;
+    background: #DADCE0;
+    margin:1px;
+  }
+  #progressbar  .active-progress {
+   background-color: #689DED;
+  }
+  .tab{
+    display: none; 
+    width: 100%;
+     height: 50%;
+    margin: 0px auto;
+  }
+  .current{
+    display: block;
+  }
