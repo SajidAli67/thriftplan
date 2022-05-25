@@ -43,6 +43,7 @@ body{
     border: none;
     border-radius: 0px;
     z-index: 1000;
+    
 }
 .btn-secondary{
     background: var(--color2);
