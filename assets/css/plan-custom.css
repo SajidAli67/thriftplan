@@ -375,3 +375,140 @@ input:checked + .slider:before {
 .text-color1{
   color: var(--color2);
 }
+.new-title h1{
+  font-family: var(--font-h);
+  font-size: 39px;
+  font-weight: bold;
+  color: var(--color);
+}
+.result{
+  font-family: var(--font-3);
+  font-weight: bold;
+  color: #9B9B9B;
+}
+.new{
+  background: url('../imges/our_plan/bg-resou.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.new-area{
+  background-color: #fff;
+  box-shadow: 5px 5px 15px rgb(0 0 0 / 3%);
+  padding: 40px 20px;
+  margin: 50px;
+}
+.news-img img{
+    width: 280px;
+    height: 200px;
+  
+}
+.news-title{
+  font-family: var(--font-h);
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--color);
+  padding-top: 10px;
+}
+.news-description{
+  font-family: var(--font-3);
+  font-size: 12px;
+  color: var(--color);
+  padding-top: 20px;
+}
+.news-footer{
+  font-family: var(--font-p);
+  font-size: 16px;
+  color: #A2A6BB;
+  padding-top: 50px;
+}
+.news-footer::before{
+  content: "";
+
+  width: 20px;
+  height: 30px;
+      padding: 0px 6px;
+  background-color: var(--color2);
+  margin-right: 30px;
+}
+.tab3{
+  background: url('../imges/our_plan/tab3-bd.png');
+  background-attachment: fixed;
+  padding: 110px 0px 350px 0px;
+}
+.tab3 h1{
+  font-family: var(--font-h);
+  font-weight: bold;
+  font-size: 48px;
+  color: #fff; 
+}
+.left-area{
+  font-family: var(--font-3);
+  font-style: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: var(--color);
+  padding: 50px 0px 100px 0px;
+  text-align: center;
+  margin-top: -80px;
+}
+.left-area h1{
+  font-family: var(--font-h);
+  font-family: 26px;
+  font-weight: bold;
+}
+.left-area p {
+  padding-top: 20px;
+}
+.right-area{
+  background-color: #fff;
+  padding: 30px 80px;
+  box-shadow: 2px 5px 20px rgb(0 0 0 / 20%);
+    margin: 10px 30px 0px -50px;
+}
+.right-area h1{
+  font-weight: bold;
+  font-size: 30px;
+  color: var(--color2);
+}
+.right-area .btn-warning{
+  background: transparent;
+    color: #fff !important;
+    font-size: 12px;
+    font-weight: 500;
+    color: #213060 !important;
+    padding: 5px 30px !important;
+    margin-top: 6px;
+    border: 1px solid #707070;
+    border-radius: 0px;
+    z-index: 1000;
+}
+.right-area .custom-input-group{
+    margin: 30px 0px;
+
+}
+.right-area .btn-send{
+  border-radius: 0px;
+  background-color: var(--color2);
+  color: #fff;
+}
+.register-option{
+  margin: 30px;
+  padding: 10px 0px 20px 40px;
+  color: var(--color);
+}
+.register-div{
+  border: 2px solid var(--color2);
+  margin: 1.5rem;
+}
+.register-text{
+  background-color: #fff;
+  font-size: 12px;
+  box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.3);
+  margin: 10px -40px 10px 10px;
+  padding: 20px;
+  height: 200px
+
+}
+.register-text h1{
+  font-size: 26px;
+}
