@@ -1,0 +1,42 @@
+
+.drag-area{
+  background: #fff;
+  border: 2px dashed #DDDFE1;
+  height: 280px;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.drag-area.active{
+  border: 2px solid #fff;
+}
+.drag-area .icon{
+  font-size: 100px;
+  color: #7AB4A6
+}
+.drag-area h3{
+  font-family: 'Circular Std Book';
+  font-size: 16px;
+  font-weight: bold;
+  color: #464A53;
+}
+.drag-area span{
+  font-size: 16px;
+  font-weight: 500;
+  color: #ABAFB3;
+}
+.drag-area img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.error{
+  color: #FF5274;
+  float: right;
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+}

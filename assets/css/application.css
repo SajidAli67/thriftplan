@@ -1,0 +1,284 @@
+:root{
+    --color:#213060;
+    --color2:#7AB4A6;
+    --font-h: 'Noto Serif';
+    --font-p : 'Raleway';
+    --font-3: 'Source Sans Pro';
+}
+.application-banner{
+    font-family: var(--font-p);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--color);
+    padding:4.3rem 0px 0px 0px;
+
+}
+.application-banner h1{
+    font-family: var(--font-h);
+    font-weight: bold;
+    font-size: 48px;
+    color: var(--color);
+    margin-top: 3rem;
+}
+.application-banner h1::before{
+    content: "";
+    padding: 3px;
+    margin-right: 20px;
+    background-color: var(--color2);
+}
+.application-banner p{
+    padding: 10px 20px;
+
+}
+.application-banner .btn-secondary{
+    margin-top: 0px;
+    font-size: 16px;
+}
+.application{
+    overflow-x: hidden;
+    box-shadow: 0px -1px 4px #00000046;
+}
+.application .col-md-3{
+    width: 260px !important;
+}
+.sidebar{
+    padding: 2.8rem 0px;
+    text-align: center;
+    box-shadow: 0px 2px 4px #00000046;
+    width: 260px;
+    text-align: left;
+    padding-left: 10px;
+}
+.sidebar-btn-up-down{
+    text-align: center;
+}
+.sidebar .sidebar-up{
+    transform: rotate(-90deg);
+    text-align: center;
+    
+}
+.sidebar .sidebar-down{
+    transform: rotate(90deg);
+    text-align: center;
+}
+
+.sidebar-menu{
+    list-style: none;
+}
+.sidebar-menu li{
+    font-family: var(--font-3);
+    font-size: 20px;
+    padding-right: 13px;
+    margin-top: 43px;
+}
+
+.sidebar-menu li a{ 
+    text-decoration: none;
+    color:#e4e4e4;
+}
+.sidebar-active,.sidebar-menu li a:hover{
+    color: var(--color) !important;
+}
+.application-form-container{
+    padding: 10px;
+}
+
+.form-header{
+    font-family: var(--color);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--color);
+}
+
+.application-form{
+    margin-top: 3.5rem;
+}
+.w-700{
+    width: 770px;
+}
+.form-next,.form-previous{
+    font-family: var(--font-3);
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 20px;
+    text-align: right;
+
+}
+.form-previous{
+    text-align: left;
+}
+.btn-next,.btn-previous{
+    background-color: transparent;
+}
+.form-next a{
+    color: var(--color) !important;
+    text-decoration: none;
+    text-align: right;
+    display: none;
+}
+.btn-next:active,.btn-previous:active{
+    border-color: transparent;
+    border: none;
+    outline: none;
+    box-sizing: none;
+}
+.btn-previous img{
+    padding-left: 20px;
+    transform: rotate(180deg);
+}
+.form-next img{
+    margin-left: 20px;
+
+}
+.from-label{
+    font-family: var(--font-3);
+    margin-top: 1.5rem;
+    font-size: 18px;
+    color: #464A53;
+}
+.form-check{
+    margin-left: 20px;
+}
+
+.form-check input[type="checkbox"]{
+    appearance: none;
+    height: 21px;
+    width: 21px;
+    background-color: #DEE0E2;
+    border-radius: 0px;
+    cursor: pointer;
+}
+.form-check label{
+    color: #4c4c4c;
+    font: 16px;
+
+}
+.form-check input[type="checkbox"]:after{
+    content: "✓";
+    color: #fff;
+    padding-left: 5px;
+    display: none;
+}
+.form-check input[type="checkbox"]:hover{
+    background-color: #a5a5a5;
+}
+.form-check input[type="checkbox"]:checked{
+    background-color: var(--color);
+}
+.form-check input[type="checkbox"]:checked:after{
+    display: block;
+}
+.form-check-label{
+    font-family: var(--font-3);
+    font-size: 16px;
+    color: #ABAFB3;
+    padding-left: 8px;
+}
+
+/* application-form custom radion */
+
+
+.application-form  .form-check input[type="radio"]{
+    appearance: none;
+    height: 21px;
+    width: 21px;
+    background-color: #DEE0E2;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.application-form .form-check label{
+    color: #4c4c4c;
+    font: 16px;
+
+}
+.application-form .form-check input[type="radio"]:after{
+    content: "✓";
+    color: #fff;
+    padding-left: 5px;
+    display: none;
+}
+.application-form .form-check input[type="radio"]:hover{
+    background-color: #a5a5a5;
+}
+.application-form .form-check input[type="radio"]:checked{
+    background-color: var(--color);
+}
+.application-form .form-check input[type="radio"]:checked:after{
+    display: block;
+}
+.step2-form-header{
+    font-family:'Helvetica Neue' ;
+    font-style: 20px;
+    color: #707070;
+}
+#step2 .form-check{
+    padding-top:20px ;
+}
+.form-table{
+    font-size: 13px;
+    font-family: var(--font-3);
+}
+.form-table> thead > tr > th {
+    border: none;
+}
+.form-table td{
+    color: var(--color2);
+}
+.btn-td-close{
+    background-color: transparent;
+    border: none;   
+}
+.owner-form{
+    background-color: var(--color);
+    padding: 20px;
+    color: #fff;
+    width: 300px;
+}
+.owner-form h3{
+    font-family: var(--font-h);
+    font-size: 26px;
+    font-weight: bold;
+}
+.owner-form .form-control{
+    background-color: transparent;
+    border-radius: 0px;
+    color: #ABAFB3;
+}
+.td-color{
+    color: var(--color) !important;
+}
+.document-table{
+    font-family: var(--font-3);
+    font-size: 16px;
+    font-weight: bold;
+    margin: 30px;
+    color: var(--color);   
+}
+
+.document-table td:nth-child(2){
+    font-weight: 200;
+    text-align: right;
+}
+.document-table td:nth-child(3){
+    width: 20%;
+}
+
+.form-btn-edit-delete{
+    text-align: right;
+    padding: 0px 30px;
+}
+.form-btn-edit-delete .btn{
+        background-color: transparent;
+        border: none;
+        color: var(--color);
+
+}
+
+
+@media (max-width: 992px) {
+    .application-form-container {
+      margin-left: 0px; 
+    }
+}
+

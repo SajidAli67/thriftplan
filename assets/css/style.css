@@ -52,6 +52,10 @@ body{
     font-family: 'Noto Serif', serif;
     font-weight: 700;
 }
+
+.logo-text{
+    display: none;
+}
 .top-bar nav {
     height: 100px;
 }
@@ -76,6 +80,9 @@ body{
     font-family: var(--font-3);
     height: 60px;
    
+}
+.form-group input[type='range']{
+    accent-color: var(--color2);
 }
 .main-menu .nav-link{
     color: #fff !important;
@@ -267,11 +274,11 @@ footer{
 .footer-top-section{
     width: 562px;
     height: 189px;
-    background-color: #EDEDED;
+    background: transparent radial-gradient(closest-side at 50% 50%, #EDEDED 0%, #C4C4C4 100%) 0% 0% no-repeat padding-box;
     color: var(--color);
     text-align: center;
     margin-top: -8rem;
-    padding: 50px;
+    padding: 35px;
 }
 .footer h1{
     font-family: 600;
@@ -579,3 +586,19 @@ footer .custom-input-group {
 .team-icon a{
     color: #fff ;
 }
+.copyright{
+    font-family: var(--font-p);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.footer-links{
+    text-align: right;
+}
+
+  .copyright .footer-bar-link{
+    color: #fff !important;
+    text-align: right !important;
+    padding-left: 30px;
+  
+  }

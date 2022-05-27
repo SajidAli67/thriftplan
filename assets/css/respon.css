@@ -6,6 +6,21 @@
     .img-banner{
         width: 100%;
     }
+    .user-responce {
+        display: block;
+        word-spacing: -10px;
+        margin-left: -100px;
+       
+    }
+     .user-responce a {
+        color: var(--color);
+    }
+    .user-responce img{
+        margin-top: 15px;
+      }
+     .user{
+        display: none;
+     }
 }
 @media(max-width: 768px){
   
@@ -54,35 +69,46 @@
 }
 }
 @media (max-width: 576px) {
+    .banner h1{
+        font-size: 28px;
+    }
+    .banner-btn a{
+        margin-top: 20px;
+    }
     .banner-section {
-        width: 318px;
+        width: 100%;
         margin: auto;
         
      }
+     .banner-section p{
+        font-size: 12px;
+        
+     }
+     .mobile-img-res{
+        margin-left: 0rem;
+    }
      .top-bar nav{
         padding: 0px;
         margin: 0px;
-        height: 150px;
         text-align: center;
+     }
+     .user-responce {
+        margin-left: 0px;
+        margin-right: -15px;
+    }
+    .user-responce  .nav-link{
+        padding:0px;
+    }
+     .logo-img{
+        display: none;
+    }
+     .logo-text{
+         display: block;
      }
      .main-menu{
          display: none;
      }
-     .user-responce {
-        display: block;
-        word-spacing: -10px;
-        margin-left: -100px;
-       
-    }
-     .user-responce a {
-        color: var(--color);
-    }
-    .user-responce img{
-        margin-top: 15px;
-      }
-     .user{
-        display: none;
-     }
+    
      .h-1{
          font-size: 16px;
          
@@ -95,7 +121,7 @@
      }
      .footer-top-section {
         width: 269px;
-        height: 120px;
+        height: 150px;
         padding: 20px;
         margin: auto;
         margin-top: -100px;

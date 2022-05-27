@@ -512,3 +512,57 @@ input:checked + .slider:before {
 .register-text h1{
   font-size: 26px;
 }
+.barnner-partner{
+  background: url('../imges/home/about-banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 6.25rem 0px;
+    color: #fff;
+}
+.margin-banner{
+  margin: 4rem;
+}
+.partner-end{
+  text-align: center;
+  padding: 3rem;
+  color: var(--color);
+  font-size: 13px;
+}
+.partner-end h1{
+  font-family: var(--font-h);
+  font-weight: bold;
+  font-size: 38px;
+  color: var(--color);
+}
+.partner-end h3{
+  font-family: var(--font-p);
+  font-weight: bold;
+  font-size: 18px;
+  color: #79797A;
+
+}
+.partner-end  .card{
+  margin-top: 30px;
+  background-color: transparent;
+  border: none;
+}
+.partner-end .card-title{
+    font-family: var(--font-h);
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--color2);
+}
+.partner-end .card-text{
+  font-family: var(--font-p);
+  font-size: 17px;
+  line-height: 30px;
+}
+@media (max-width: 576px) {
+  .progressbar-none{
+    display: none;
+  }
+  .progressbar-margin{
+    margin-top: -18px;
+  }
+}
