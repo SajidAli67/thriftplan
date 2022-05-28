@@ -1,0 +1,120 @@
+:root{
+    --color:#213060;
+    --color2:#7AB4A6;
+    --font-h: 'Noto Serif';
+    --font-p : 'Raleway';
+    --font-3: 'Source Sans Pro';
+}
+
+/* jumbotron */
+.jumbotron {
+    margin-left: 6rem;
+}
+.jumbotron h1{
+    font-family: var(--font-h);
+    font-size: 35px;
+    font-weight: 600;
+    color: var(--color);
+    padding-top: 2rem;
+}
+.jumbotron .para{
+    font-family: var(--font-p);
+    font-weight: bolder;
+    font-size: 15px;
+    color: var(--color);
+    padding-bottom: 3rem;
+}
+.jumbotron .para2{
+    font-family: var(--font-3);
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--color);
+    margin-bottom: 0;
+}
+.jumbotron .txtpara {
+    color: var(--color);
+    font-size: 600;
+    font-family: var(--font-3);
+    font-size: 14px;
+}
+.jumbotron h2{
+    font-family: var(--font-h);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color2);
+}
+.jumbotron h3{
+    font-family: var(--font-h);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color);
+    padding-top: 10px;
+}
+
+footer{
+    background-color: var(--color);
+    color: #fff;
+    padding-top: 3rem;
+    font-family: var(--font-3);
+}
+.footer-top-section{
+    width: 562px;
+    height: 189px;
+    background-color: #EDEDED;
+    color: var(--color);
+    text-align: center;
+    margin-top: -8rem;
+    padding: 50px;
+}
+.footer h1{
+    font-family: 600;
+}
+.footer-menu{
+    margin-top: 3rem;
+}
+.footer-menu-list{
+    border-left: 2px solid #fff;
+    padding: 0px;
+    margin-left: 1rem;
+}
+.footer-menu ul{
+    list-style: none;
+    margin-left: -2rem;
+}
+.footer-menu ul a{
+    color: #fff;
+}
+
+footer .custom-input-group {
+    height: 52.26px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0px 7.25824px 14.5165px rgba(54, 58, 120, 0.1);
+  }
+  footer .custom-input {
+    border: none;
+  }
+  footer .btn-send {
+    font-weight: 600;
+    margin: 5% 0.7rem 0px 0px;
+    border-radius: 14px;
+    background: #fff;
+    color: var(--color);
+    word-spacing: 10px;
+  }
+.footer-social-icon{
+    margin-top: 15px;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    word-spacing: 20px;
+
+  }
+  .footer-social-icon a {
+      color: #fff;
+  }
+  @media (max-width: 768px){
+      .jumbotron {
+          margin-left: auto;
+      }
+  }

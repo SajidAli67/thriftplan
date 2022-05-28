@@ -1,0 +1,252 @@
+:root{
+    --color:#213060;
+    --color2:#7AB4A6;
+    --font-h: 'Noto Serif';
+    --font-p : 'Raleway';
+    --font-3: 'Source Sans Pro';
+}
+body{
+
+    font-family: 'Noto Serif', serif;
+    overflow-x: hidden;
+    width: 100vw;
+    max-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.text-2{
+    color: var(--color2);
+}
+.text-1{
+    color: var(--color);
+}
+.heading{
+    font-size: 38px;
+    color:var(--color);
+    font-weight: 600;
+    font-family: var(--font-h);
+    text-align: center;
+    margin: 4rem 0px;
+}
+.btn-primary, .btn-secondary{
+    background: var(--color);
+    color: #fff !important;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 30px !important;
+    margin-top: 6px;
+    border: none;
+    border-radius: 0px;
+    z-index: 1000;
+}
+.top-bar{
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+}
+.top-bar nav {
+    height: 100px;
+}
+.top-bar .user{
+  word-spacing: -10px;
+  
+}
+.user-responce{
+    display: none;
+}
+.top-bar .user a {
+    color: var(--color);
+}
+.top-bar .user img{
+    margin-top: 15px;
+  }
+.top-bar ul li{
+    margin: 2rem 1rem;
+}
+.main-menu{
+    background-color: var(--color);
+    font-family: var(--font-3);
+    height: 60px;
+}
+.main-menu .nav-link{
+    color: #fff !important;
+}
+.top-border{
+    position: absolute;
+    top: 0px;
+    width: 50%;
+    border-top: 4px solid  var(--color2);
+}
+.main-menu .dropdown-item{
+    font-size: 14px;
+}
+.main-menu .dropdown-item:nth-child(2){
+    font-size: 18px;
+  }
+.main-menu  .dropdown-menu{
+    border-radius: 0px;
+    border: 1px solid #707070;
+}
+/* nav for moibile */
+.menu-mob{
+    width:290px;
+    height: 100%;
+    background-color: #F6F8F9;
+    padding:2rem;
+    position:absolute;
+    top: 0px;
+    left: -500px;
+    z-index: 10000;
+    transition: all .3s;
+}
+.menu-mob ul{
+    list-style:none;
+    margin-top: 5rem;
+} 
+.menu-mob li{
+    margin-top: 2rem;
+} 
+.menu-mob a{
+    color: #343638;
+} 
+.btn-close{
+    border: none;
+    position:absolute;
+    top:10px;
+    right: 10px;
+}
+
+/* Style the tab */
+.tab {
+    background-color: var(--color);
+    width: 100%;
+    height: 100vh;
+    border-top: 3px solid #00000034;
+    box-shadow: 22px 10px 35px #00000034;
+  }
+
+  .tab h1 {
+    color: #FFFFFF;
+    font-family: var(--font-h);
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-top: 30%;
+    margin-left: 10%;
+  }
+  .tab p {
+    color: #FFFFFF;
+    font-family: var(--font-p);
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10%;
+  }
+
+  .btn-secondary2{
+    border: 1px solid var(--color);
+    background: var(--color2);
+    color: #fff !important;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 10%;
+    border: none;
+    border-radius: 0px;
+    z-index: 1000;
+}
+.btn-secondary2:hover {
+    background-color: #707070;
+}
+  /* Style the tab content */
+  .tabcontent {
+    width: 100%;
+    height: 100vh;
+    /* padding: 6rem 6rem; */
+    color: var(--color);
+  }
+  .tabcontent h1 {
+    border-left: 4px solid var(--color2);
+    padding-left: 10px;
+    font-family: var(--font-h);
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .tabcontent p{
+      padding-left: 1rem;
+      font-size: 14px;
+      font-weight: bold;
+      font-family: var(--font-h);
+  }
+  .tabcontent li {
+      list-style-type: none;
+      font-size: 14px;
+      font-weight: bold;
+      font-family: var(--font-h);
+      line-height: 2.5;
+  }
+  .fa-check {
+      color: var(--color2);
+    padding-right: 15px;
+  }
+
+  .form-inline {  
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    align-items: center !important;
+  }
+  
+  .form-inline input {
+    vertical-align: middle;
+    width: 20rem;
+    height: 3rem;
+    background-color: #fff;
+    border: 1px solid #DDDFE1;
+    color: #ABAFB3;
+    font-size: 12px !important;
+    font-family: var(--font-p) !important;
+    font-weight: 600;
+    padding: 0 15px;
+  }
+  
+  .form-inline button {
+    width: 8rem;
+    height: 3rem;
+    background-color: var(--color);
+    border: 1px solid var(--color2);
+    color: white;
+    cursor: pointer;
+  }
+  .formp {
+      margin-bottom: 3px;
+      color: #464A53;
+      font-size: 12px !important;
+      font-family: var(--font-p) !important;
+  }
+  .form_div {
+      margin-top: 2rem;
+      align-items: center;
+  }
+  .form-inline button:hover {
+    background-color: var(--color2);
+  }
+  @media (max-width: 549px){
+    .form-inline input {
+        width: 20rem;
+        height: 3rem;
+      }
+    .form-inline button {
+        width: 20rem;
+        height: 3rem;
+      }
+  }
+  @media (max-width: 767px){
+    .tab h1 {
+        margin-left: 30%;
+      }
+      .tab p {
+        margin-left: 30%;
+      }
+    
+      .btn-secondary2{
+        margin-left: 30%;
+    }
+  }

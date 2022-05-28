@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-    <title>TP</title>
+    <link rel="icon" href="assets/imges/home/logo_m.png" type="">
+    <title>ThriftPlan</title>
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/respon.css">
@@ -26,11 +27,12 @@
         <div class="top-bar">
 
            <div class="container-fluid">
-            <nav class="navbar navbar-expand-md navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-light">
                 <button class="navbar-toggler" type="button" id="btn-menu">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                <a class="navbar-brand" href="#"><img src="assets/imges/home/logo.png" alt="LOGO"></a>
+                <a class="navbar-brand logo-img" href="#"><img src="assets/imges/home/logo.png" alt="LOGO"></a>
+                    <a class="navbar-brand logo-text" href="#"><img src="assets/imges/home/logo_m.png" alt="LOGO"></a>
                 <div class="user-responce">
                     <a class="nav-link" href="#">Login <img src="assets/imges/home/user.png" class="img-fluid" alt=""></a>
                 </div>
@@ -38,13 +40,13 @@
                 <div class="collapse navbar-collapse" >
                   <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Contact US</a>
+                      <a class="nav-link" href="contact_us.html">Contact US</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link btn btn-primary" href="#">Book Now</a>
+                      <a class="nav-link btn btn-primary" href="contact_us.html">Book Now</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-secondary" href="#">Get Started</a>
+                        <a class="nav-link btn btn-secondary" href="application/detail.html">Get Started</a>
                     </li>
                   </ul>
                     <div class="user">
@@ -60,13 +62,13 @@
                     <div class="collapse navbar-collapse">
                       <ul class="navbar-nav ">
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Our Solution
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <div class="top-border"></div>
                               <a class="dropdown-item first-link" href="#">How it works</a>
-                              <a class="dropdown-item" href="#">Our Plan</a>
+                              <a class="dropdown-item" href="our_plan/user.html">Our Plan</a>
                               <a class="dropdown-item" href="#">Sustainability</a>
                             </div>
                              
@@ -81,27 +83,27 @@
                                 <div class="top-border"></div>
                               <a class="dropdown-item" href="#">Our Platforms</a>
 
-                              <a class="dropdown-item" href="#">Corporate</a>
-                              <a class="dropdown-item" href="#">Employee</a>
+                              <a class="dropdown-item" href="employee_1.html">Corporate</a>
+                              <a class="dropdown-item" href="employee.html">Employee</a>
                             </div>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">About us</a>
+                            <a class="nav-link" href="about.html">About us</a>
                           </li>
                         
                         
                       </ul>
                       <ul class="navbar-nav ml-auto ">
                         <li class="nav-item dropdown">
-                            <a class="nav-link pr-5" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Resources
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <div class="top-border"></div>
                               <a class="dropdown-item " href="#">Resources</a>
-                              <a class="dropdown-item" href="#">Academy</a>
-                              <a class="dropdown-item" href="#">Media Center</a>
-                              <a class="dropdown-item" href="#">Workshops and Seminars</a>
+                              <a class="dropdown-item" href="our_plan/resources.html">Academy</a>
+                              <a class="dropdown-item" href="our_plan/resources.html">Media Center</a>
+                              <a class="dropdown-item" href="our_plan/resources.html">Workshops and Seminars</a>
                             </div>
                         </li>
                         <li class="nav-item ">
@@ -119,12 +121,36 @@
             <img src="assets/imges/home/logo.png" alt="" class="img-fluid">
             <button class="btn-close" id="close-menu">X</button>
             <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">Our Solution</a></li>
-                <li><a href="#">Resource Center</a></li>
-                <li><a href="#">Contact us</a></li>
-                <li><a href="#">Apply now</a></li>
-                <li><a href="#">Book a demo</a></li>
+                <li><a href="#"><i class="fas fa-home pr-3"></i>HOME</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="far fa-clock  pr-2"></i>  Our Solution
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="top-border"></div>
+                      <a class="dropdown-item first-link" href="#">How it works</a>
+                      <a class="dropdown-item" href="our_plan/user.html">Our Plan</a>
+                      <a class="dropdown-item" href="#">Sustainability</a>
+                    </div>
+                     
+                   
+                </li>
+            
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-image pr-2"></i>  Resource Center
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="top-border"></div>
+                          <a class="dropdown-item " href="#">Resources</a>
+                          <a class="dropdown-item" href="our_plan/resources.html">Academy</a>
+                          <a class="dropdown-item" href="our_plan/resources.html">Media Center</a>
+                          <a class="dropdown-item" href="our_plan/resources.html">Workshops and Seminars</a>
+                        </div>
+                    </li>
+                <li><a href="contact_us.html">Contact us</a></li>
+                <li><a href="Application.html">Apply now</a></li>
+                <li><a href="contact_us.html">Book a demo</a></li>
             </ul>
         </div>
     </header>
@@ -376,8 +402,14 @@
 
 <footer>
     <div class="container-fluid">
-        <div class="row no-gutters">
-            
+        <div class="row no-gutters ml-4">
+            <div class="col-md-6 order-md-2">
+                <div class="footer-top-section">
+                    <h1 class="h-1">Are you Thrifting yet?</h1>
+                    <p class="p-1">Start the transformation and be a visionary.</p>
+                    <a href="#" class="btn btn-secondary">Get Started </a>
+                </div>
+            </div>
             <div class="col-md-4 order-md-1">
                 <img src="assets/imges/home/footer-logo.png" alt="" class="img-fluid">
                 <h5>Transforming Social Security in MENA</h5>
@@ -392,10 +424,10 @@
                     <h2>Home Page</h2>
                     <div class="footer-menu-list">
                         <ul>
-                            <li><a href="#"> Employer Solution </a></li>
-                            <li><a href="#"> Employee Benefits  </a></li>
-                            <li><a href="#"> About us </a></li>
-                            <li><a href="#"> Contact us </a></li>
+                            <li><a href="employee.html"> Employer Solution </a></li>
+                            <li><a href="employee_1.html"> Employee Benefits  </a></li>
+                            <li><a href="about.html"> About us </a></li>
+                            <li><a href="contact_us.html"> Contact us </a></li>
                         </ul>
                     </div>
                 </div>
@@ -406,9 +438,9 @@
                     <h2>Our Solution</h2>
                     <div class="footer-menu-list">
                         <ul>
-                            <li><a href="#"> Our Plan </a></li>
+                            <li><a href="our_plan/user.html"> Our Plan </a></li>
                             <li><a href="#"> Investing with TP  </a></li>
-                            <li><a href="#"> Partnerships </a></li>
+                            <li><a href="parternership.html"> Partnerships </a></li>
                             <li><a href="#"> Sustainability </a></li>
                         </ul>
                     </div>
@@ -420,10 +452,10 @@
                     <h2>Resource Center</h2>
                     <div class="footer-menu-list">
                         <ul>
-                            <li><a href="#"> TP Academy </a></li>
-                            <li><a href="#"> Media Centre  </a></li>
-                            <li><a href="#"> About us </a></li>
-                            <li><a href="#"> Seminars and Workshops </a></li>
+                            <li><a href="our_plan/resources.html"> TP Academy </a></li>
+                            <li><a href="our_plan/resources.html"> Media Centre  </a></li>
+                            <li><a href="about.html"> About us </a></li>
+                            <li><a href="our_plan/resources.html"> Seminars and Workshops </a></li>
                         </ul>
                     </div>
                 </div>
@@ -446,12 +478,25 @@
                 </div>
                 <div class="footer-social-icon">
                     <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                         <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
                         <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        
-                       
-                        
                     </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Trademarked © 2022 - All rights reserved</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-links">
+                        <a href="privacy-policy.html" class="footer-bar-link">Privacy Policy</a>
+                        <a href="#" class="footer-bar-link">Terms and Conditions</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -460,6 +505,7 @@
 <!------------mobile------------>
     <!------------Script Files------------>
     <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script type="text/javascript" src="assets/lib/owl/owl.carousel.min.js"></script>

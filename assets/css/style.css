@@ -57,7 +57,7 @@ body{
     display: none;
 }
 .top-bar nav {
-    height: 100px;
+    height: 66px;
 }
 .top-bar .user{
   word-spacing: -10px;
@@ -266,10 +266,12 @@ body{
     display: none;
 }
 footer{
+    font-family: var(--font-3);
+
     background-color: var(--color);
     color: #fff;
     padding-top: 3rem;
-    font-family: var(--font-3);
+    margin-top: 50px;
 }
 .footer-top-section{
     width: 562px;

@@ -1,0 +1,84 @@
+
+  .tab{
+    display: none; 
+    width: 100%;
+     height: 50%;
+    margin: 0px auto;
+  }
+  .current{
+    display: block;
+  }
+  
+ #myForm{
+   padding: 30px;
+ }
+
+ #progressbar {
+	margin-bottom: 30px;
+	overflow: hidden;
+	/*CSS counters to number the steps*/
+	counter-reset: step;
+}
+#progressbar li {
+  font-family: 'Circular Std Book';
+	list-style-type: none;
+	font-size: 16px;
+	width: 25%;
+	float: left;
+  text-align: center;
+	position: relative;
+}
+#progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 50px;
+	line-height: 50px;
+	display: block;
+	font-size: 14px;
+	color: #333;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 2px solid #DDDFE1;
+ 
+	border-radius: 50%;
+	margin: 0 auto 5px auto;
+}
+
+#progressbar li:after {
+  content: '';
+    width: 100%;
+    height: 15px;
+    background: #E4E4E4 0% 0% no-repeat padding-box;
+
+    position: absolute;
+    left: -50%;
+    top: 18px;
+    z-index: -1;
+}
+#progressbar li:first-child:after {
+
+	content: none; 
+}
+
+#progressbar li.active-progress:before,  #progressbar li.active-progress:after{
+	background: transparent linear-gradient(90deg, #2A324A 0%, #213060 100%) 0% 0% no-repeat padding-box;
+	border: 2px solid #2A324A;
+  color: white;
+}
+
+ 
+ .error{
+   font-family: 'Circular Std Book';
+   font-style:normal;
+   font-size: 16px;
+   color: #FF5274;
+   border-color: #FF5274 !important;
+ }
+ .success {
+  border-color: #a6ffa6 !important;
+}
+ .form-group label {
+   font-family: ;
+   font-size: 16px;
+   font-weight: 300;
+   color: #464A53;
+ }

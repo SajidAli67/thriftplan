@@ -84,6 +84,7 @@
 }
 
 .form-header{
+    margin-top: 30px;
     font-family: var(--color);
     font-size: 20px;
     font-weight: 400;
@@ -274,8 +275,42 @@
         color: var(--color);
 
 }
-
-
+.save-div{
+    margin-top: 30px;
+    text-align: center;
+  }
+  .btn-save{
+    padding: 30px;
+    font-size: 16px !important;
+    margin: auto;
+    text-align: center;
+  }
+  .form-label{
+      font-family: 'Source Sans Pro';
+      font-size: 16px;
+      color: #464A53;
+  }
+  .form-group label {
+    font-family:'Circular Std Book';
+    font-size: 16px;
+    font-weight: 300;
+    color: #464A53;
+  }
+  .form-control{
+    font-family:'Circular Std Book';
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .form-control:active,.form-control:focus{
+      border: 1px solid var(--color2);
+      box-shadow: none;
+  }
+  .form-control::placeholder{
+    font-family:'Circular Std Book';
+    font-size: 16px;
+    font-weight: 300;
+    color: #ABAFB3;
+  }
 @media (max-width: 992px) {
     .application-form-container {
       margin-left: 0px; 
