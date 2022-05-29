@@ -126,3 +126,9 @@ $(document).ready(function () {
         }
     });
 }) 
+
+// nav on
+window.addEventListener("scroll",function(){
+    var header_nav = document.querySelector('.top-bar');
+    header_nav.classList.toggle('sticky',window.scrollY> 200);
+})
