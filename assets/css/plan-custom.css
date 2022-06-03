@@ -12,6 +12,14 @@ body{
   width: 100vw;
   max-height: 100vh;
 }
+.btn-secondary1{
+  background: #7AB4A6 0% 0% no-repeat padding-box;
+  width: 360px;
+  height: 43px;
+  font-size: 16px;
+  padding-left:20px ;
+  color: #fff;
+}
 .user-banner{
     background: url('../imges/our_plan/user-plan-banner.png');
     background-repeat: no-repeat;
