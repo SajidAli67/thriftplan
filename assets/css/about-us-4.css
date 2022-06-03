@@ -9,9 +9,48 @@
   font-family: var(--font-3);
   font-size: 22px;
 }
+.about-us-4 .card-text{
+  font: normal normal normal 22px/28px Source Sans Pro !important;
+  letter-spacing: 0px;
+  color: #213060;
+}
+.banner-about-div{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 4px #00000038;
+  padding: 50px 15px 10px 30px;
+  color: var(--color);
+  width: 750px;
+  margin-top: -10rem;
+}
+.banner-about-div h2{
+  font-family: 'Noto Serif';
+  font-weight: bold;
+  font-size: 40px;
+  text-align: left;
+   padding-left: 10px; 
+   color: #213060;
+  border-left: 5px solid #7AB4A6;
+}
+.ul-about-social{
+  list-style: none;
+  margin-top: 30px;
+  margin-left: -40px;
+}
+.ul-about-social li{
+  float: left;
+  margin-left: 20px;
+}
+.team-icon{
+  background: #7AB4A6 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+}
 .service {
   padding-top: 3%;
   padding-bottom: 3%;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
 } 
 .service .card{
   border: none;
@@ -39,4 +78,10 @@
   font-weight: 600;
   color: var(--color);
   text-decoration: underline;
+}
+@media (max-width: 768px){
+
+  .banner-about-div{
+    width: 100%;
+  }
 }

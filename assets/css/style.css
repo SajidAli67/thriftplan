@@ -133,7 +133,7 @@ body{
 /* nav for moibile */
 .menu-mob{
     width:290px;
-    height: 100%;
+    height: auto;
     background-color: #F6F8F9;
     padding:2rem;
     position:absolute;
@@ -152,6 +152,39 @@ body{
 .menu-mob a{
     color: #343638;
 } 
+.footer-mob-menu{
+    width: 290px !important;
+    height: 500px;
+    font-size: 11px;
+    font-family: 'Helvetica';
+    background-color: #213060;
+    color: #FFFFFF;
+    margin-left: -2rem;
+    
+}
+.footer-mob-menu a{
+    color: #fff;
+}
+.footer-mob-menu .footer-menu-list{
+    border: none;
+    margin-right: 1rem;
+}
+.footer-mob-menu .footer-social-icon{
+    font-size: 20px;
+    margin-top: -5rem;
+}
+.footer-mob-menu .custom-input{
+    background-color: #fff;
+    border-radius: 0px;
+}
+.footer-mob-menu .btn-send{
+    
+    border-radius: 0px;
+    background: #fff;
+    color: var(--color);
+    word-spacing: 10px;
+
+}
 .btn-close{
     border: none;
     position:absolute;
@@ -348,6 +381,11 @@ footer{
     padding: 20px;
     box-shadow: 2px 2px 4px #00000038;
 }
+.footer-bg{
+    background: url('../imges/home/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .footer h1{
     font-family: 600;
 }
@@ -402,7 +440,7 @@ footer .custom-input-group {
   .footer-social-icon a {
       color: #fff;
   }
-  
+ 
 /* ============ Employee Page ================ */
 .graphic-section{
     margin-top: 15rem;
@@ -615,6 +653,12 @@ footer .custom-input-group {
 }
 .about-services{
     margin-bottom: 7rem;
+}
+.about-banner-4{
+    background: url('../imges/home/about-us-4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
 }
 .about-services-div{
     width: 100%;
