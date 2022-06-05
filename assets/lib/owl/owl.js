@@ -2,10 +2,11 @@
     var owl = $('.owl-carousel');
     owl.owlCarousel({ 
       loop:true,
-          item:3,
+          item:5,
           autoplay:true,
           autoplayHoverPause:true,
           nav:true,
+          margin:20,
           responsive:{
                   0:{
                       items:1, 

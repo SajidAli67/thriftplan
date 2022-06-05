@@ -12,6 +12,11 @@ body{
   width: 100vw;
   max-height: 100vh;
 }
+.btn-shadow{
+  padding: 10px 80px !important;
+    box-shadow: 0px 15px 10px rgb(0 0 0 / 50%);
+    font-size: 16px;
+}
 .btn-secondary1{
   background: #7AB4A6 0% 0% no-repeat padding-box;
   width: 360px;
@@ -565,6 +570,16 @@ input:checked + .slider:before {
   font-family: var(--font-p);
   font-size: 17px;
   line-height: 30px;
+}
+.owl-container{
+  background-color: #f0f0f0;
+  padding-top: 5rem;
+}
+.owl-prev{
+  background: url('../imges/home/prv.png');
+}
+.owl-prev span{
+  display: none;
 }
 @media (max-width: 576px) {
   .progressbar-none{

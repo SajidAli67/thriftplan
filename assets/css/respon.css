@@ -16,6 +16,9 @@
         width: 100%;
     }
     .user-responce {
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 300;
         display: block;
         word-spacing: -10px;
         margin-left: -100px;
@@ -76,10 +79,22 @@
     margin-top: -150px;
 
 }
+.footer-mob{
+    display: block;
+}
+
 }
 @media (max-width: 576px) {
     .banner h1{
         font-size: 28px;
+    }
+    .banner-btn {
+        text-align: left;
+        margin-top: 2rem;
+    }
+    .banner .btn-primary, .banner .btn-secondary {
+        padding: 10px 20px !important;
+        font-size: 12px;
     }
     .banner-btn a{
         margin-top: 20px;
@@ -103,6 +118,9 @@
         text-align: center;
      }
      .user-responce {
+        font-family: 'Roboto';
+        font-size: 12px;
+        font-weight: 300;
         margin-left: 0px;
         margin-right: -15px;
     }
@@ -148,8 +166,13 @@
     .progress-div {
         font-size: 12px;
         }
-  
-    
+    footer{
+        display: none;
+    }
+    .footer-top-mob{
+        width: 270px;
+        margin-top: -190px !important;
+    }
 }
 @media (max-width: 390px) {
     footer {
