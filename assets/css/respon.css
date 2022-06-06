@@ -82,7 +82,16 @@
 .footer-mob{
     display: block;
 }
-
+.laptop-employee h2{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.laptop-employee p{
+    font-size: 16px;
+}
+.margin-nig-50{
+    margin-left: -20px;
+}
 }
 @media (max-width: 576px) {
     .banner h1{
@@ -173,6 +182,20 @@
         width: 270px;
         margin-top: -190px !important;
     }
+    .img-padding {
+        padding-top: 5rem;
+        margin-left: 20px;
+    }
+    .margin-nig-50 {
+        margin-left: 0px;
+    }
+    .laptop-employee h2{
+        margin-top: 30px;
+        font-size: 14px;
+    }
+    .laptop-employee p{
+        font-size: 12px;
+    }
 }
 @media (max-width: 390px) {
     footer {
@@ -234,5 +257,15 @@
     }
     .heading {
         font-size: 24px;
+    }
+    .laptop-employee h2{
+        margin-top: 30px;
+        font-size: 12px;
+    }
+    .laptop-employee p{
+        font-size: 10px;
+    }
+    .margin-nig-50 {
+        margin-left: 10px;
     }
 }

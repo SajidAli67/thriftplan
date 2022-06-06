@@ -696,7 +696,15 @@ footer .custom-input-group {
       text-align: right;
       font-weight: bold;
   }
+  .laptop-employee h2{
+    font-family: var(--font-p);
+    font-size: 28px;
+    font-weight: bold;
+  }
   .laptop-employee p{
+      font-family: var(--font-p);
+      font-size: 18px;
+      font-weight: 700;
     color:var(--color2)
  }
   .img-padding{

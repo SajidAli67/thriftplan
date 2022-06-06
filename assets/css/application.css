@@ -316,4 +316,9 @@
       margin-left: 0px; 
     }
 }
+@media (max-width: 786px) {
+    .sidebar{
+        width: 100%;
+    }
+}
 
