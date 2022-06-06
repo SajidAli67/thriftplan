@@ -366,10 +366,10 @@
                                     </div>
                                     <div class="package-body">
                                         <h4>Number of employees</h4>
-                                        <input type="number" value="4" class="form-control number-control">
+                                        <input type="number" id="employee" value="1" class="form-control number-control">
                                     </div>
                                     <div class="package-footer">
-                                        <h3>Total: Sar 1440</h3>
+                                        <h3>Total: Sar <span id="employee_value"> 360</span></h3>
                                         <p><b>/ Sar 360 </b> per user</p>
                                     </div>
                                 </div>
@@ -386,10 +386,10 @@
                                     </div>
                                     <div class="package-body">
                                         <h4>Number of employees</h4>
-                                        <input type="number" value="4" class="form-control number-control">
+                                        <input type="number" id="employee1" value="1" class="form-control number-control">
                                     </div>
                                     <div class="package-footer">
-                                        <h3>Total: Sar 2400</h3>
+                                        <h3>Total: Sar <span id="employee_value1"> 600</span></h3>
                                         <p><b>/ Sar 600 </b> per user</p>
                                     </div>
                                 </div>
@@ -483,10 +483,10 @@
                                     </div>
                                     <div class="package-body">
                                         <h4>Number of employees</h4>
-                                        <input type="number" value="4" class="form-control number-control">
+                                        <input type="number" id="employee" value="1" class="form-control number-control">
                                     </div>
                                     <div class="package-footer">
-                                        <h3>Total: Sar 1440</h3>
+                                        <h3>Total: Sar <span id="employee_value"> 1440</span></h3>
                                         <p><b>/ Sar 360 </b> per user</p>
                                     </div>
                                 </div>
@@ -727,10 +727,10 @@
                                     </div>
                                     <div class="package-body">
                                         <h4>Number of employees</h4>
-                                        <input type="number" value="4" class="form-control number-control">
+                                        <input type="number" id="employee" value="4" class="form-control number-control">
                                     </div>
                                     <div class="package-footer">
-                                        <h3>Total: Sar 1440</h3>
+                                        <h3>Total: Sar <span id="employee_value">1440</span></h3>
                                         <p><b>/ Sar 360 </b> per user</p>
                                     </div>
                                 </div>
@@ -1876,7 +1876,19 @@
     <script src="../assets/lib/aos/aos.js"></script>
     <script src="../assets/lib/aos/aso-custom.js"></script>
     <script>
-       
+       $(document).ready(function(){
+           $('#employee').keyup(function(){
+               var value = $(this).val()
+               var total = value*360
+               $('#employee_value').html(total)
+           })
+
+           $('#employee1').keyup(function(){
+               var value = $(this).val()
+               var total = value*600
+               $('#employee_value1').html(total)
+           })
+       })
     </script>
 
 </body>
