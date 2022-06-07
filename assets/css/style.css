@@ -67,6 +67,7 @@ body{
 .font-p{
     font-family: 'SourceSansPro-Regular';
     font-size: 16px;
+    color: var(--color);
 }
 .user-responce{
     display: none;
@@ -101,26 +102,25 @@ body{
 .top-border{
     position: absolute;
     top: 0px;
-    width: 50%;
+    width: 104px;
+    margin-left: -10px;
     border-top: 4px solid  var(--color2);
 }
 .dropdown-menu {
-    padding: 20px 0px;
+    padding: 20px 10px;
 }
 .main-menu .dropdown-item{
-    font-family: var(--font-p);
+    font-family: var(--font-3);
     font-size: 14px;
     font-weight: 600;
+    
     
 }
 
 .main-menu .dropdown-width{
     width: 350px;
 }
-/* .main-menu .dropdown-item:nth-child(2){
-    font-size: 18px;
-    font-weight: 600;
-  } */
+
 .main-menu  .dropdown-menu{
     border-radius: 0px;
     border: 1px solid #707070;
@@ -130,7 +130,7 @@ body{
 .first-link{
     font-size: 18px !important;
     font-weight: 600 !important;
-    margin-left: -10px !important;
+    padding-left: 10px !important;
 }
 /* nav for moibile */
 .menu-mob{
@@ -425,10 +425,12 @@ footer{
 }
 .footer-menu ul a{
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
     color: #fff;
 }
-
+.f-m-l{
+    margin-left: 130px;
+}
 footer .custom-input-group {
     height: 52.26px;
     margin: auto;
@@ -451,7 +453,7 @@ footer .custom-input-group {
     font-size: 30px;
     text-align: center;
     color: #fff;
-    word-spacing: 20px;
+    word-spacing: 30px;
 
   }
   .footer-social-icon a {
@@ -605,7 +607,7 @@ footer .custom-input-group {
 .border-dot{
     width: 100%;
     display: flex;
-    margin: 70px;
+    margin: 20px;
    
 }
 .bold{
@@ -761,7 +763,7 @@ footer .custom-input-group {
     width: 100%;
 }
 .about-services-text{
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(33, 48, 96,0.45);
     width: 92.5%;
     height: 100%;
     color:#fff;
@@ -795,7 +797,7 @@ footer .custom-input-group {
     height: 322px;
     position: relative;
     margin-bottom: 4rem;
-    box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
+    box-shadow: 0px 2px 4px #00000077;
 }
 .team .team-icon{
     width: 40px;
@@ -813,7 +815,7 @@ footer .custom-input-group {
     color: #fff ;
 }
 .copyright{
-    font-family: var(--font-p);
+    font-family: var(--font-3);
     font-size: 18px;
     font-weight: 400;
     margin-top: 30px;
